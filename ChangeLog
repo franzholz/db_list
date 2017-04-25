@@ -1,5 +1,10 @@
 (add new changes on top of this file)
 
+2017-04-25 Franz Holzinger  <franz@ttproducts.de>
+
+    * remove all former features for TYPO3 8.x
+    * new feature: XCLASS of /recordlist/Classes/RecordList/DatabaseRecordList.php to add a slot which allows to manipulate the dataset row which will be exported from the TYPO3 backend into a csv file.
+
 2015-01-17 Franz Holzinger  <franz@ttproducts.de>
 
 	* new feature: add connection between a foreign table and its alternative language table

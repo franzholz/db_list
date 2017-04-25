@@ -1,0 +1,51 @@
+{
+  "name": "jambagecom/db-list",
+  "type": "typo3-cms-extension",
+  "description": "This implements hooks for the records list which is used in the list module.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "tt_products"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/db_list/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "http://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": ">=4.5.0,<8.99.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "JambageCom\\DbList\\": "Classes"
+    }
+  },
+  "replace": {
+    "db_list": "self.version",
+    "typo3-ter/db-list": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin",
+    "preferred-install": {
+      "typo3/cms": "source",
+      "typo3/cms-core": "source",
+      "*": "dist"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
+}
