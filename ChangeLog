@@ -1,0 +1,14 @@
+(add new changes on top of this file)
+
+2015-01-17 Franz Holzinger  <franz@ttproducts.de>
+
+	* new feature: add connection between a foreign table and its alternative language table
+	* TCA settings behaviour with option localizationMode and value select
+
+2014-10-11 Franz Holzinger  <franz@ttproducts.de>
+
+	* TYPO3 4.7
+
+2009-08-12 Franz Holzinger  <franz@ttproducts.de>
+
+	* Initial release
